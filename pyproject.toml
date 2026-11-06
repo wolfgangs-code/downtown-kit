@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "downtown-kit"
+version = "0.1.0"
+description = "Geospatial 3D digital twin mesh and texture tools for game engines"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pyproj",
+    "shapely",
+    "trimesh",
+    "requests",
+    "pillow"
+]
